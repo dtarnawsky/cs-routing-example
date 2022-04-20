@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-schedule',
-  templateUrl: './schedule.page.html',
-  styleUrls: ['./schedule.page.scss'],
+  selector: 'app-overview',
+  templateUrl: './overview.page.html',
+  styleUrls: ['./overview.page.scss'],
 })
-export class SchedulePage {
+export class OverviewPage {
   messages = [];
   constructor() { }
 

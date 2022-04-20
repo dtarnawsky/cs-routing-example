@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.page.html',
-  styleUrls: ['./about.page.scss'],
+  selector: 'app-resources',
+  templateUrl: './resources.page.html',
+  styleUrls: ['./resources.page.scss'],
 })
-export class AboutPage {
+export class ResourcesPage {
   messages = [];
   constructor() { }
 

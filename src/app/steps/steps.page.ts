@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-map',
-  templateUrl: './map.page.html',
-  styleUrls: ['./map.page.scss'],
+  selector: 'app-steps',
+  templateUrl: './steps.page.html',
+  styleUrls: ['./steps.page.scss'],
 })
-export class MapPage {
+export class StepsPage {
   messages = [];
   constructor() { }
 
